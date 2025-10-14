@@ -10,7 +10,7 @@ This website showcases my 13+ years of international experience in **Cybersecuri
 
 ## 🚀 Live Website
 
-Visit the portfolio: [https://ricardriv.github.io](https://ricardriv.github.io)
+Visit the portfolio: [https://rickardo1991.github.io/ricardriv.github.io/](https://rickardo1991.github.io/ricardriv.github.io/)
 
 ---
 
