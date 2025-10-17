@@ -492,6 +492,30 @@ nav {
     color: var(--text-secondary);
 }
 
+/* Avatar en la card de contacto (About) */
+.contact-card {
+  /* opcional: darle un look de tarjeta */
+  padding: var(--spacing-m);
+  border-radius: var(--border-radius);
+  background-color: var(--tertiary-dark);
+  box-shadow: var(--box-shadow);
+}
+
+.contact-avatar {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-avatar img {
+  width: 128px;
+  height: 128px;
+  border-radius: 12px;        /* cuadrado con esquinas suaves; usa 50% si la quieres redonda */
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+}
+
 /* ====================
    Skills Section
    ==================== */
