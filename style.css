@@ -3,6 +3,7 @@
    ==================== */
 :root {
     /* Color Scheme - Updated to be more cyberpunk */
+    --avatar-size: 200px;
     --primary-dark: #000000; /* True black background */
     --secondary-dark: #0a0a0a; /* Very dark, almost black */
     --tertiary-dark: #101010; /* Slightly lighter dark */
@@ -504,16 +505,16 @@ nav {
 .contact-avatar {
   display: flex;
   justify-content: center;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.25rem 0;
 }
 
 .contact-avatar img {
-  width: 128px;
-  height: 128px;
-  border-radius: 12px;        /* cuadrado con esquinas suaves; usa 50% si la quieres redonda */
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 16px;       /* cuadrado con esquinas suaves */
   object-fit: cover;
-  border: 1px solid rgba(255,255,255,0.1);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.45);
 }
 
 /* ====================
@@ -1443,6 +1444,7 @@ footer {
 /* Large devices (laptops/desktops, up to 1200px) */
 @media only screen and (max-width: 1200px) {
     :root {
+        --avatar-size: 160px;
         --fs-xl: 3rem;
         --fs-l: 2.2rem;
         --fs-m: 1.3rem;
@@ -1460,6 +1462,7 @@ footer {
 /* Medium devices (tablets, up to 992px) */
 @media only screen and (max-width: 992px) {
     :root {
+        --avatar-size: 128px;
         --fs-xl: 2.8rem;
         --fs-l: 2rem;
         --fs-m: 1.2rem;
